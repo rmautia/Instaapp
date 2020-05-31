@@ -69,4 +69,5 @@ There are no known bugs so far. If found, KIndly get in touch through my contact
 raphaelnyangenya@gmail.com | bookiedonate@gmail.com
 
 #### Peace Info. 
-we are faced with a very serious pandemic. please try as much as possible to stay home, stay safe, keep distance and remember to sanitize. 
+we are faced with a very serious pandemic. please try as much as possible to stay home, stay safe, keep distance and remember to sanitize.😇 
+
