@@ -707,3 +707,16 @@ img.img-thumbnail.rounded-circle.profilepic{
         display: none;
     }
 }
+.login-playstorebtn{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .regplaystorebtn{
+    display: flex;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}

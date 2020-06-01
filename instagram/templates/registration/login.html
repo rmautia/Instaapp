@@ -4,6 +4,9 @@
 {% block content %}
 <div class="container">
     <div class="row sign-up top-margin">
+        <div class="loginimage">
+            <img src="../../static/images/instagrampicture2.png " alt="instagram login phone ">
+        </div>
         <div class="col-md-4">
             {% if form.errors %}
             <p class="small">Password or Username is incorrect</p>
@@ -28,6 +31,26 @@
             </div>
             <div class="section">
                 <p class="forgot">Don't have an account? <a href="/signup/">Sign-Up</a></p>
+            </div>
+            <br>
+
+            <br>
+            <!-- Play Store and Apple store Images With well text to put them sidebyside! -->
+            <div class="login-playstorebtn">
+            
+            
+                <div class="googlebtn">
+            
+                    <a href="https://play.google.com/store/search?q=instagram"><img src="../../static/images/playstore.svg" alt="signuplogo " style="width:150px; height:40px "></a>
+            
+                </div>
+            
+                <div class="applebtn">
+            
+                    <a href="https://www.apple.com/us/search/instagram?src=itunes_serp"><img src="../../static/images/applestore.jpeg"  alt="signuplogo " style="width:150px; height:40px "></a>
+            
+                </div>
+            
             </div>
         </div>
     </div>
