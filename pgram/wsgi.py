@@ -1,5 +1,5 @@
 """
-WSGI config for instaclone project.
+WSGI config for instaappIP project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
