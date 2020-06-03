@@ -31,7 +31,9 @@ The Instaclone project requires a prerequisite understanding of the following:
 - Postgres
 - Python virtualenv virtual
 
-## Setup and installation
+## demo login credentials
+username: raphael
+password: Thejourney1.
 
 #### Clone the Repository
 ####  Activate virtual environment
