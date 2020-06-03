@@ -41,7 +41,7 @@ Activate virtual environment using python3.6 as default handler
     `python3.8 -m venv --without-pip virtual && source virtual/bin/activate`
     `curl https://bootstrap.pypa.io/get-pip.py | python`
 ####  Install dependancies
-Install dependancies that will create an environment for the app to run `pip install -r requirements.txt`
+Install dependancies that will create an environment for the app to run `pip install -r requirements.txt`   `pip freeze > requirements.txt`
 ####  Create the Database
     - psql
     - CREATE DATABASE instagramdt;
