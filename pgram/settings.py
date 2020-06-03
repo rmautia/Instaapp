@@ -14,7 +14,11 @@ import os
 import django_heroku
 import dj_database_url
 from decouple import config,Csv
+from whitenoise.django import DjangoWhiteNoise
 
+from django.core.wsgi import get_wsgi_application
+##
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ss.settings')
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -164,6 +168,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
