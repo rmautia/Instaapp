@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from .models import Image,Category,Location
+from .models import Image,Likes,Location,Comments
 # Create your tests here.
 
 class ProfileTestClass(TestCase):
