@@ -1,7 +1,8 @@
 # INSTAGRAM CLONE
 ## Description
 
-InstaClone is a social  web application that is used by users to post their pictures, follow other users and like other their pictures. They can also follow other users as in instagram app. link to the live site here [here]()
+InstaClone is a social  web application that is used by users to post their pictures, follow other users and like other their pictures. They can also follow other users as in instagram app. link to the live site here [here](http://mirrayinsta.herokuapp.com/) 
+please note password is should contain mixed characters and symbols. 
 
 
 ## Features
