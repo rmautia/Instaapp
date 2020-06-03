@@ -32,8 +32,8 @@ The Instaclone project requires a prerequisite understanding of the following:
 - Python virtualenv virtual
 
 ## demo login credentials
-username: raphael
-password: Thejourney1.
+username: demo
+password: Demopass1.
 
 #### Clone the Repository
 ####  Activate virtual environment
