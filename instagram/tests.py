@@ -10,7 +10,7 @@ class ProfileTestClass(TestCase):
         test case for profiles
         '''
         self.user = User.objects.create_user('testuser','password')
-        self.profile = Profile(bio='I am a testcase',photo='', user='name')
+        self.profile = Profile(bio='I am a testcase',photo='', user='')
         self.profile.save_profile()
 
     def test_instance(self):
