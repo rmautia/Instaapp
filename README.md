@@ -49,7 +49,7 @@ Install dependancies that will create an environment for the app to run `pip ins
 Create .env file and paste paste the following filling where appropriate:
 
     SECRET_KEY = '<Secret_key>'
-    DBNAME = 'instagramdb'
+    DBNAME = 'instagramdt'
     USER = '<Username>'
     PASSWORD = '<password>'
     DEBUG = True
