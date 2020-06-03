@@ -1,8 +1,8 @@
 # INSTAGRAM CLONE
 ## Description
 
-InstaClone is a social  web application that is used by users to post their pictures, follow other users and like other their pictures. They can also follow other users as in instagram app. link to the live site here [here](http://mirrayinsta.herokuapp.com/) 
-please note password is should contain mixed characters and symbols. 
+InstaClone is a social  web application that is used by users to post their pictures, follow other users and like other their pictures. They can also follow other users as in instagram app. link to the live site [here](http://mirrayinsta.herokuapp.com/) 
+please note password should contain mixed characters and symbols. 
 
 
 ## Features
@@ -11,7 +11,6 @@ please note password is should contain mixed characters and symbols.
 - Users can follow other users and unfollow them.
 - A user can like and comment on a post.
 - A user can upload posts and edit their profile.
-- A user can view other users profle pages and full details of an image by clicking on the image.
 - Admin can regulate images uploaded by deleting from the admin dashboard as well as completely close a users account.
 
 
@@ -43,7 +42,7 @@ Activate virtual environment using python3.6 as default handler
 Install dependancies that will create an environment for the app to run `pip install -r requirements.txt`
 ####  Create the Database
     - psql
-    - CREATE DATABASE instagram;
+    - CREATE DATABASE instagramdt;
 ####  .env file
 Create .env file and paste paste the following filling where appropriate:
 
